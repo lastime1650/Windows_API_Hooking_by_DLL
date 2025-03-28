@@ -1,0 +1,47 @@
+﻿  pch.cpp
+  ACCESS_MASK_parse_to_str.cpp
+  Check64Bit_logic.cpp
+  dllmain.cpp
+  DynamicLength_logic.cpp
+  Get_Time_logic.cpp
+  Hooking_Handler_logic.cpp
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\Hooking_Handler_logic.cpp(9,17): warning C4312: '형식 캐스트': 'DWORD'에서 더 큰 'HANDLE'(으)로의 변환입니다.
+  (소스 파일 '/Hooking_Handler_logic.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\Hooking_Handler_logic.cpp(527,98): warning C4267: '인수': 'size_t'에서 'ULONG32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Hooking_Handler_logic.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\Hooking_Handler_logic.cpp(599,98): warning C4267: '인수': 'size_t'에서 'ULONG32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Hooking_Handler_logic.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\Hooking_Handler_logic.cpp(762,102): warning C4267: '인수': 'size_t'에서 'ULONG32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Hooking_Handler_logic.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\Hooking_Handler_logic.cpp(1770,98): warning C4267: '인수': 'size_t'에서 'ULONG32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Hooking_Handler_logic.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\Hooking_Handler_logic.cpp(1843,98): warning C4267: '인수': 'size_t'에서 'ULONG32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Hooking_Handler_logic.cpp'을(를) 컴파일하는 중)
+  
+  Init_Starter_logic.cpp
+  Inline_hook_logic.cpp
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\Inline_hook_logic.cpp(56,42): warning C4311: '형식 캐스트': 'PVOID'에서 'DWORD'(으)로 포인터가 잘립니다.
+  (소스 파일 '/Inline_hook_logic.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\Inline_hook_logic.cpp(56,42): warning C4302: '형식 캐스트': 'PVOID'에서 'DWORD'(으)로 잘립니다.
+  (소스 파일 '/Inline_hook_logic.cpp'을(를) 컴파일하는 중)
+  
+  KernelCommunicate.cpp
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\KernelCommunicate.cpp(48,16): warning C4312: '형식 캐스트': 'DWORD'에서 더 큰 'HANDLE'(으)로의 변환입니다.
+  (소스 파일 '/KernelCommunicate.cpp'을(를) 컴파일하는 중)
+  
+  LinkedList_logic.cpp
+  NTSTATUS_2_STRING_logic.cpp
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\NTSTATUS_2_STRING_logic.cpp(27,32): warning C4267: '=': 'size_t'에서 'ULONG32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/NTSTATUS_2_STRING_logic.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 35 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  EDR_HOOK_DLL.vcxproj -> C:\Users\Administrator\source\repos\EDR_HOOK_DLL\x64\Release\EDR_HOOK_DLL.dll

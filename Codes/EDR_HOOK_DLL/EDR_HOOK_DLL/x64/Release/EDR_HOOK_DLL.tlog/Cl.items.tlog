@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\ACCESS_MASK_parse_to_str.cpp;C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\x64\Release\ACCESS_MASK_parse_to_str.obj
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\Check64Bit_logic.cpp;C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\x64\Release\Check64Bit_logic.obj
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\dllmain.cpp;C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\x64\Release\dllmain.obj
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\DynamicLength_logic.cpp;C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\x64\Release\DynamicLength_logic.obj
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\Get_Time_logic.cpp;C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\x64\Release\Get_Time_logic.obj
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\Hooking_Handler_logic.cpp;C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\x64\Release\Hooking_Handler_logic.obj
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\Init_Starter_logic.cpp;C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\x64\Release\Init_Starter_logic.obj
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\Inline_hook_logic.cpp;C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\x64\Release\Inline_hook_logic.obj
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\KernelCommunicate.cpp;C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\x64\Release\KernelCommunicate.obj
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\LinkedList_logic.cpp;C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\x64\Release\LinkedList_logic.obj
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\NTSTATUS_2_STRING_logic.cpp;C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\x64\Release\NTSTATUS_2_STRING_logic.obj
+C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\pch.cpp;C:\Users\Administrator\source\repos\EDR_HOOK_DLL\EDR_HOOK_DLL\x64\Release\pch.obj

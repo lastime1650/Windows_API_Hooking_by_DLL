@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="EDR_DLL">
+      <UniqueIdentifier>{fd076413-c892-486b-b5f3-fc605a369e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDR_DLL\후킹">
+      <UniqueIdentifier>{fcb85c15-bbb5-4e17-b561-841f370dda14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDR_DLL\유틸">
+      <UniqueIdentifier>{0d638bca-4539-4c28-9c0b-8daabc6eb10c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDR_DLL\후킹\초기화">
+      <UniqueIdentifier>{a1c7829b-2f76-4c49-8815-977c01bf8428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDR_DLL\후킹\인라인후킹">
+      <UniqueIdentifier>{d08a9091-5f86-466f-8c49-96afc0bd7cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDR_DLL\유틸\64비트검사">
+      <UniqueIdentifier>{ac9c14d0-4d28-488a-a485-25a417013568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDR_DLL\후킹\핸들러">
+      <UniqueIdentifier>{361287c2-c359-4c03-aa2f-8a9aad695979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDR_DLL\유틸\연결리스트">
+      <UniqueIdentifier>{ebaff161-2589-48ee-a97c-5ab1f7cfe542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDR_DLL\유틸\ACCESS_MASK_2_STRING">
+      <UniqueIdentifier>{8640e2a3-1f72-4e84-95ea-27dbd7744c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDR_DLL\유틸\커널간_통신">
+      <UniqueIdentifier>{17e07f41-d357-4e98-9fbc-64eae0cc8b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDR_DLL\유틸\현재시간추출">
+      <UniqueIdentifier>{9ec61e3e-0db5-47f1-a3b3-9444693bdfc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDR_DLL\유틸\연결리스트_2_길이기반">
+      <UniqueIdentifier>{94296814-2ebf-4939-b129-0d32ac25ace3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDR_DLL\유틸\커널간_통신\코어서버_enum">
+      <UniqueIdentifier>{fc7ffa42-60f8-464c-ae6f-0201daaa4b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDR_DLL\후킹\핸들러\API 리스트">
+      <UniqueIdentifier>{738e8be2-8b90-4fc1-b386-641a4550e6e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EDR_DLL\유틸\NTSTATUS_2_STRING">
+      <UniqueIdentifier>{f9733458-68f6-4d35-bb30-09c59ce66fe9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Inline_hook.h">
+      <Filter>EDR_DLL\후킹\인라인후킹</Filter>
+    </ClInclude>
+    <ClInclude Include="Check64Bit.h">
+      <Filter>EDR_DLL\유틸\64비트검사</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking_Handler.h">
+      <Filter>EDR_DLL\후킹\핸들러</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>EDR_DLL\유틸\연결리스트</Filter>
+    </ClInclude>
+    <ClInclude Include="ACCESS_MASK_to_str_.h">
+      <Filter>EDR_DLL\유틸\ACCESS_MASK_2_STRING</Filter>
+    </ClInclude>
+    <ClInclude Include="Core_Server_Enum.h">
+      <Filter>EDR_DLL\유틸\커널간_통신\코어서버_enum</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel_Communicate_.h">
+      <Filter>EDR_DLL\유틸\커널간_통신</Filter>
+    </ClInclude>
+    <ClInclude Include="Get_Time.h">
+      <Filter>EDR_DLL\유틸\현재시간추출</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicLength.h">
+      <Filter>EDR_DLL\유틸\연결리스트_2_길이기반</Filter>
+    </ClInclude>
+    <ClInclude Include="API_list.h">
+      <Filter>EDR_DLL\후킹\핸들러\API 리스트</Filter>
+    </ClInclude>
+    <ClInclude Include="Init_Starter.h">
+      <Filter>EDR_DLL\후킹\초기화</Filter>
+    </ClInclude>
+    <ClInclude Include="NTSTATUS_2_STRING.h">
+      <Filter>EDR_DLL\유틸\NTSTATUS_2_STRING</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Inline_hook_logic.cpp">
+      <Filter>EDR_DLL\후킹\인라인후킹</Filter>
+    </ClCompile>
+    <ClCompile Include="Check64Bit_logic.cpp">
+      <Filter>EDR_DLL\유틸\64비트검사</Filter>
+    </ClCompile>
+    <ClCompile Include="ACCESS_MASK_parse_to_str.cpp">
+      <Filter>EDR_DLL\유틸\ACCESS_MASK_2_STRING</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelCommunicate.cpp">
+      <Filter>EDR_DLL\유틸\커널간_통신</Filter>
+    </ClCompile>
+    <ClCompile Include="Get_Time_logic.cpp">
+      <Filter>EDR_DLL\유틸\현재시간추출</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicLength_logic.cpp">
+      <Filter>EDR_DLL\유틸\연결리스트_2_길이기반</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking_Handler_logic.cpp">
+      <Filter>EDR_DLL\후킹\핸들러</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList_logic.cpp">
+      <Filter>EDR_DLL\유틸\연결리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="Init_Starter_logic.cpp">
+      <Filter>EDR_DLL\후킹\초기화</Filter>
+    </ClCompile>
+    <ClCompile Include="NTSTATUS_2_STRING_logic.cpp">
+      <Filter>EDR_DLL\유틸\NTSTATUS_2_STRING</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
